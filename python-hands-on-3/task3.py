@@ -1,0 +1,24 @@
+"""
+Task 4: Pocket Money Records
+You're building a small tracker for your younger sibling's weekly pocket money.
+The amounts (in naira) for the past 5 weeks are stored like this:
+money = [1000, 1200, 800, 1500, 1100]
+
+1. Calculate and display the total amount received so far.
+2. A mistake was made in the third week's entry (800). It should have been 1000. Fix it.
+3. Display the list in reverse order to check most recent payments first.
+
+→ Perform the corrections and computations, and print all results.
+"""
+money = [1000, 1200, 800, 1500, 1100]
+day1 = 1000
+day2 = 1200
+day3 = 800
+day4 = 1500
+day5 = 1100
+total_days = day1 + day2 + day3 + day4 + day5
+print(total_days)
+money[2] = 1000
+print(money)
+money.reverse()
+print(money)
